@@ -44,6 +44,14 @@ public class Ingredient {
 		return "Ingredient [id=" + id + ", nom=" + nom + "]";
 	}
 
+	/** Constructor
+	 * @param nom
+	 */
+	public Ingredient(String nom) {
+		super();
+		this.nom = nom;
+	}
+
 	/** Getter
 	 * @return the id
 	 */

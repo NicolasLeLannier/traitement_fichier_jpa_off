@@ -36,6 +36,14 @@ public class Marque {
 		super();
 	}
 
+	/** Constructor
+	 * @param nom
+	 */
+	public Marque(String nom) {
+		super();
+		this.nom = nom;
+	}
+
 	/** toString
 	 * @return Marque affichage
 	 */

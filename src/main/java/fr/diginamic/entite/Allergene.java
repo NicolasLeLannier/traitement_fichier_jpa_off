@@ -25,6 +25,14 @@ public class Allergene {
 	/** nom */
 	private String nom;
 	
+	/** Constructor
+	 * @param nom
+	 */
+	public Allergene(String nom) {
+		super();
+		this.nom = nom;
+	}
+
 	/** produit */
 	@ManyToMany(mappedBy = "allergenes")
 	private List<Produit> produit;

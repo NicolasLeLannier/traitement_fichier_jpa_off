@@ -36,6 +36,14 @@ public class Categorie {
 		super();
 	}
 
+	/** Constructor
+	 * @param nom
+	 */
+	public Categorie(String nom) {
+		super();
+		this.nom = nom;
+	}
+
 	/** toString
 	 * @return Categorie affichage
 	 */

@@ -33,7 +33,7 @@ public class Produit {
 	
 	/** presenceHuilePalme */
 	@Column(name = "presence_huile_palme")
-	private boolean presenceHuilePalme;
+	private int presenceHuilePalme;
 	
 	/** nutritionGrade */
 	@Column(name = "nutrition_grade")
@@ -70,7 +70,7 @@ public class Produit {
 	
 	/** valeurNutrionnelle */
 	@OneToOne  @JoinColumn( name="ID_VALEUR_NUTRITIONNELLE" )
-    private ValeurNutrionnelle valeurNutrionnelle;
+    private ValeurNutritionnelle valeurNutrionnelle;
 	
 	@OneToOne  @JoinColumn( name="ID_VITAMINE" )
     private Vitamine vitamine;
@@ -122,14 +122,14 @@ public class Produit {
 	/** Getter
 	 * @return the presenceHuilePalme
 	 */
-	public boolean isPresenceHuilePalme() {
+	public int getPresenceHuilePalme() {
 		return presenceHuilePalme;
 	}
 
 	/** Setter
 	 * @param presenceHuilePalme the presenceHuilePalme to set
 	 */
-	public void setPresenceHuilePalme(boolean presenceHuilePalme) {
+	public void setPresenceHuilePalme(int presenceHuilePalme) {
 		this.presenceHuilePalme = presenceHuilePalme;
 	}
 
@@ -220,14 +220,14 @@ public class Produit {
 	/** Getter
 	 * @return the valeurNutrionnelle
 	 */
-	public ValeurNutrionnelle getValeurNutrionnelle() {
+	public ValeurNutritionnelle getValeurNutrionnelle() {
 		return valeurNutrionnelle;
 	}
 
 	/** Setter
 	 * @param valeurNutrionnelle the valeurNutrionnelle to set
 	 */
-	public void setValeurNutrionnelle(ValeurNutrionnelle valeurNutrionnelle) {
+	public void setValeurNutrionnelle(ValeurNutritionnelle valeurNutrionnelle) {
 		this.valeurNutrionnelle = valeurNutrionnelle;
 	}
 

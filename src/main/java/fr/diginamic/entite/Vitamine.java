@@ -50,6 +50,36 @@ public class Vitamine {
 		super();
 	}
 
+	/** Constructor
+	 * @param vitA100g
+	 * @param vitD100g
+	 * @param vitE100g
+	 * @param vitK100g
+	 * @param vitC100g
+	 * @param vitB1j100g
+	 * @param vitB2100g
+	 * @param vitPP100g
+	 * @param vitB6100g
+	 * @param vitB9100g
+	 * @param vitB12100g
+	 */
+	public Vitamine(double vitA100g, double vitD100g, double vitE100g, double vitK100g, double vitC100g,
+			double vitB1j100g, double vitB2100g, double vitPP100g, double vitB6100g, double vitB9100g,
+			double vitB12100g) {
+		super();
+		this.vitA100g = vitA100g;
+		this.vitD100g = vitD100g;
+		this.vitE100g = vitE100g;
+		this.vitK100g = vitK100g;
+		this.vitC100g = vitC100g;
+		this.vitB1j100g = vitB1j100g;
+		this.vitB2100g = vitB2100g;
+		this.vitPP100g = vitPP100g;
+		this.vitB6100g = vitB6100g;
+		this.vitB9100g = vitB9100g;
+		this.vitB12100g = vitB12100g;
+	}
+
 	/** toString
 	 * @return Vitamine affichage
 	 */
